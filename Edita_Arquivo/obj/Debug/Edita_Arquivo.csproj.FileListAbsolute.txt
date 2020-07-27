@@ -1,0 +1,24 @@
+C:\Users\Omnia\Documents\SharpDevelop Projects\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.csprojResolveAssemblyReference.cache
+C:\Users\Omnia\Documents\SharpDevelop Projects\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.MainForm.resources
+C:\Users\Omnia\Documents\SharpDevelop Projects\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.csproj.GenerateResource.Cache
+C:\Users\Omnia\Documents\SharpDevelop Projects\Edita_Arquivo\Edita_Arquivo\bin\Debug\Edita_Arquivo.exe.config
+C:\Users\Omnia\Documents\SharpDevelop Projects\Edita_Arquivo\Edita_Arquivo\bin\Debug\Edita_Arquivo.exe
+C:\Users\Omnia\Documents\SharpDevelop Projects\Edita_Arquivo\Edita_Arquivo\bin\Debug\Edita_Arquivo.pdb
+C:\Users\Omnia\Documents\SharpDevelop Projects\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.exe
+C:\Users\Omnia\Documents\SharpDevelop Projects\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.pdb
+C:\Users\Omnia\Desktop\Edita_Arquivo\Edita_Arquivo\bin\Debug\Edita_Arquivo.exe.config
+C:\Users\Omnia\Desktop\Edita_Arquivo\Edita_Arquivo\bin\Debug\Edita_Arquivo.exe
+C:\Users\Omnia\Desktop\Edita_Arquivo\Edita_Arquivo\bin\Debug\Edita_Arquivo.pdb
+C:\Users\Omnia\Desktop\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.csprojResolveAssemblyReference.cache
+C:\Users\Omnia\Desktop\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.MainForm.resources
+C:\Users\Omnia\Desktop\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.csproj.GenerateResource.Cache
+C:\Users\Omnia\Desktop\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.exe
+C:\Users\Omnia\Desktop\Edita_Arquivo\Edita_Arquivo\obj\Debug\Edita_Arquivo.pdb
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\bin\Debug\Edita_Arquivo.exe.config
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\bin\Debug\Edita_Arquivo.exe
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\bin\Debug\Edita_Arquivo.pdb
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_Arquivo.csprojResolveAssemblyReference.cache
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_Arquivo.MainForm.resources
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_Arquivo.csproj.GenerateResource.Cache
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_Arquivo.exe
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_Arquivo.pdb

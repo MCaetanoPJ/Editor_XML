@@ -1,0 +1,16 @@
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\bin\Debug\Edita_XML.exe.config
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\bin\Debug\Edita_XML.exe
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\bin\Debug\Edita_XML.pdb
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_XML.csprojResolveAssemblyReference.cache
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_Arquivo.MainForm.resources
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_XML.csproj.GenerateResource.Cache
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_XML.exe
+C:\Users\Omnia\Desktop\Edita_Arquivo - Teste\Edita_Arquivo\obj\Debug\Edita_XML.pdb
+C:\Users\Omnia\Desktop\(0.0.3) Edita_Arquivo - Teste - Copia\Edita_Arquivo\bin\Debug\Edita_XML.exe.config
+C:\Users\Omnia\Desktop\(0.0.3) Edita_Arquivo - Teste - Copia\Edita_Arquivo\bin\Debug\Edita_XML.exe
+C:\Users\Omnia\Desktop\(0.0.3) Edita_Arquivo - Teste - Copia\Edita_Arquivo\bin\Debug\Edita_XML.pdb
+C:\Users\Omnia\Desktop\(0.0.3) Edita_Arquivo - Teste - Copia\Edita_Arquivo\obj\Debug\Edita_XML.csprojResolveAssemblyReference.cache
+C:\Users\Omnia\Desktop\(0.0.3) Edita_Arquivo - Teste - Copia\Edita_Arquivo\obj\Debug\Edita_Arquivo.MainForm.resources
+C:\Users\Omnia\Desktop\(0.0.3) Edita_Arquivo - Teste - Copia\Edita_Arquivo\obj\Debug\Edita_XML.csproj.GenerateResource.Cache
+C:\Users\Omnia\Desktop\(0.0.3) Edita_Arquivo - Teste - Copia\Edita_Arquivo\obj\Debug\Edita_XML.exe
+C:\Users\Omnia\Desktop\(0.0.3) Edita_Arquivo - Teste - Copia\Edita_Arquivo\obj\Debug\Edita_XML.pdb
