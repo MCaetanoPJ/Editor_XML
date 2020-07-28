@@ -9,6 +9,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -22,6 +23,7 @@ namespace Edita_Arquivo
 		private static FileSystemWatcher monitorar;//Monitorar a pasta selecionada
 		private string Diretorio_Arquivo_XML;//Possui o endereço do arquivo selecionado
 		const string Diretorio_Arquivo_Config = "XML_Config.txt";
+		const string Diretorio_Arquivo_Log = "XML_Log.txt";
 		const string filtrar_extensao = "*.xml";
 		private bool is_monitorar_pasta;
 		const bool is_monitorar_subdiretorio_pasta = false;
@@ -54,12 +56,13 @@ namespace Edita_Arquivo
 				}
 			}
 			catch(Exception ex){
-				MessageBox.Show("Houve um erro ao Monitorar a pasta informada \n\nMotivo: "+ex.Message);
+				Gerador_Log("Houve um erro ao Monitorar a pasta informada \n\nMotivo: "+ex.Message, "MonitorarArquivos");
 			}
         }
 		private void OnFileChanged(object sender, FileSystemEventArgs e)
         {
-			MessageBox.Show("Detectado Alteração...");
+			string aux = "O arquivo "+e.Name + " foi criado na pasta";
+			Gerador_Log(aux,"OnFileChanged");
 			Altera_Arquivo_XML(e.FullPath);//Envia para o método o endereço do arquivo que foi alterado
         }
 		
@@ -69,10 +72,10 @@ namespace Edita_Arquivo
 				c.WriteLine(Diretorio_Arquivo_XML);
 				c.Close();
 				c.Dispose();
-				MessageBox.Show("O novo diretório XML foi salvo com sucesso!");
+				Gerador_Log("O novo diretório XML foi salvo com sucesso!", "Salvar_Diretorio_Arquivo_TXT");
 			}
 			catch(Exception ex){
-				MessageBox.Show("Houve um erro ao salvar o diretório \n Motivo: "+ex.Message);
+				Gerador_Log("Houve um erro ao salvar o diretório \n Motivo: "+ex.Message, "Salvar_Diretorio_Arquivo_TXT");
 			}
 		}
 		private void Ler_Diretorio_Arquivo_TXT(){
@@ -85,11 +88,11 @@ namespace Edita_Arquivo
 						c.Dispose();
 				}
 				else{
-					MessageBox.Show("Nenhuma Pasta contendo arquivos XML foi selecionada!");
+					//Gerador_Log("Nenhuma Pasta contendo arquivos XML foi selecionada!", "Ler_Diretorio_Arquivo_TXT");
 				}
 			}
 			catch(Exception ex){
-				MessageBox.Show("Houve um erro ao ler o arquivo com o endereço da pasta com o XML \n Motivo: "+ex.Message);
+				MessageBox.Show("Houve um erro ao ler o arquivo com o endereço da pasta com o XML \n Motivo: "+ex.Message, "Ler_Diretorio_Arquivo_TXT");
 			}
 		}
 		private void Ler_Arquivos_XML_no_Diretorio_Selecionado(){
@@ -103,11 +106,11 @@ namespace Edita_Arquivo
 		        	
 				}
 				else{
-					MessageBox.Show("Nenhuma Pasta contendo os arquivos XML foi selecionada!");
+					Gerador_Log("Nenhuma Pasta contendo os arquivos XML foi selecionada!", "Ler_Arquivos_XML_no_Diretorio_Selecionado");
 				}
 			}
 			catch(Exception ex){
-				MessageBox.Show("Aviso: Houve um erro ao Ler os arquivos dentro do diretório selecionado \n Info: "+ex.Message);
+				Gerador_Log("Aviso: Houve um erro ao Ler os arquivos dentro do diretório selecionado \n Info: "+ex.Message, "Ler_Arquivos_XML_no_Diretorio_Selecionado");
 			}
 		}
 		private void Altera_Arquivo_XML(string endereco_arquivo_XML){
@@ -124,7 +127,28 @@ namespace Edita_Arquivo
 	            Arquivo_XML.Save(endereco_arquivo_XML);//endereco para atualizar o arquivo XML
 			}
 			catch(Exception ex){
-				MessageBox.Show("Aviso: Houve um erro atualizar o seguinte arquivo XML: "+endereco_arquivo_XML+"\n Solução: Retire o arquivo XML da pasta e o coloque novamente  \n Info: "+ex.Message);
+				//Gerador_Log("Aviso: Houve um erro atualizar o seguinte arquivo XML: "+endereco_arquivo_XML+"\n Solução: Retire o arquivo XML da pasta e o coloque novamente  \n Info: "+ex.Message, "Altera_Arquivo_XML");
+			}
+		}
+		private void Gerador_Log(string Mensagem, string nome_metodo){
+			try{
+				if (!File.Exists(Diretorio_Arquivo_Log)){
+					StreamWriter c = File.CreateText(Diretorio_Arquivo_Log); 
+					string Mensagem_Final = DateTime.Now + " - " + Mensagem;
+					c.WriteLine(Mensagem_Final);
+					c.Close();
+					c.Dispose();
+				}
+				else{
+					StreamWriter sw = File.AppendText(Diretorio_Arquivo_Log);
+					string Mensagem_Final = DateTime.Now + " - Metodo: "+nome_metodo+" - Mensagem: "+ Mensagem;
+					sw.WriteLine(Mensagem_Final);
+					sw.Close();
+					sw.Dispose();
+				}
+			}
+			catch(Exception ex){
+				MessageBox.Show("Houve um erro ao registrar o Log, por esse motivo você está vendo essa mensagem\n Erro: "+ex.Message);
 			}
 		}
 		

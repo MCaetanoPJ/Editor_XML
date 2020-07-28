@@ -20,7 +20,6 @@ namespace Edita_Arquivo
 		private System.Windows.Forms.Button btn_Atualizar_XML;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label lbl_quantidade_arquivos;
-		private System.Windows.Forms.Timer timer_AtualizaXML;
 		private System.Windows.Forms.Label label2;
 		
 		/// <summary>
@@ -44,14 +43,12 @@ namespace Edita_Arquivo
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
 			this.btn_SelecionarDiretorio = new System.Windows.Forms.Button();
 			this.txt_EnderecoArquivo = new System.Windows.Forms.TextBox();
 			this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
 			this.btn_Atualizar_XML = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.lbl_quantidade_arquivos = new System.Windows.Forms.Label();
-			this.timer_AtualizaXML = new System.Windows.Forms.Timer(this.components);
 			this.label2 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
@@ -108,12 +105,6 @@ namespace Edita_Arquivo
 			this.lbl_quantidade_arquivos.Name = "lbl_quantidade_arquivos";
 			this.lbl_quantidade_arquivos.Size = new System.Drawing.Size(599, 25);
 			this.lbl_quantidade_arquivos.TabIndex = 5;
-			// 
-			// timer_AtualizaXML
-			// 
-			this.timer_AtualizaXML.Enabled = true;
-			this.timer_AtualizaXML.Interval = 10000;
-			this.timer_AtualizaXML.Tick += new System.EventHandler(this.Timer_AtualizaXMLTick);
 			// 
 			// label2
 			// 
