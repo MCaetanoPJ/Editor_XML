@@ -1,6 +1,10 @@
 # Editor_XML
 Monitoramento de Arquivos XML em pasta especifica
 
+# XML para teste
+Dentro da pasta "(0.0.3) Edita_XML\Edita_Arquivo\bin\Debug" tem um arquivo com extensão (.XML) com a estrutura para qual o sistema foi construido
+Ao abrir esse arquivo observe que o valor do atributo "codigo_lis" existe um espaço em frente ao valor, esse sistema foi desenvolvido para remover esse espaço que influência em outro sistema que realiza a leitura dos arquivos (.XML)
+
 Funcionamento do sistema:
 Uma pasta especifica é seleciona para ser monitorada, essa pasta será monitorada em específico somente por arquivos com extensão .XML que forem criados, ignorando arquivos editados ou renomeados por meio da biblioteca System.IO e seu método "FileSystemWatcher"
 
