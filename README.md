@@ -2,7 +2,7 @@
 Monitoramento de Arquivos XML em pasta especifica
 
 # XML para teste
-Dentro da pasta "(0.0.3) Edita_XML\Edita_Arquivo\bin\Debug" tem um arquivo com extensão (.XML) com a estrutura para qual o sistema foi construido
+Dentro da pasta "Edita_Arquivo" e em seguida "bin\Debug" tem um arquivo com extensão (.XML) com a estrutura para qual o sistema foi construido
 Ao abrir esse arquivo observe que o valor do atributo "codigo_lis" existe um espaço em frente ao valor, esse sistema foi desenvolvido para remover esse espaço que influência em outro sistema que realiza a leitura dos arquivos (.XML)
 
 Funcionamento do sistema:
