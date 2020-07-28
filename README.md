@@ -17,3 +17,6 @@ Possui como objetivo Ler o conteúdo do arquivo criado pelo método "Salvar_Dire
 Tem como objetivo Ler todos os arquivos com .extensão (.XML) dentro da pasta informada pelo usuário e colocar o endereço desses arquivos juntamente com o seu nome, em um vetor e enviar para o método "Altera_Arquivo_XML"
 # Altera_Arquivo_XML
 Possui a principal funcionalidade do sistema, pois a leitura e escrita o arquivo (.XML), esse método recebe como parametro o endereço do arquivo que deve ser alterado e após a alteração estar finalizada o método atualiza o arquivo e finaliza
+# Gerador_Log
+Responsável por criar o arquivo de texto com todas as mensagens geradas pelo sistema, sendo de confirmação de uma ação ou um erro
+Esse método possui a única mensagem que deve ser exibida para o usuário
