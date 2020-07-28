@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<solicitacoes versao="20070110">
+  <entidade codigo="sadasdasd" chave="asdasdasd       ">
+    <pacientes>
+	  <paciente codigo_lis="000023/20           " nome="JAO DO TESTE" datanasc="01/02/2000" sexo="M" />
+	  <paciente codigo_lis="000032/20           " nome="JAO DO TESTE" datanasc="01/02/2000" sexo="M" />
+	  <paciente codigo_lis="0000237/20           " nome="JAO DO TESTE" datanasc="01/02/2000" sexo="M" />
+	  <paciente codigo_lis="0000212/20           " nome="JAO DO TESTE" datanasc="01/02/2000" sexo="M" />
+	  <paciente codigo_lis="0000232/20           " nome="JAO DO TESTE" datanasc="01/02/2000" sexo="M" />
+	  <paciente codigo_lis="0000234/20           " nome="JAO DO TESTE" datanasc="01/02/2000" sexo="M" />
+	  <paciente codigo_lis="00002377/20           " nome="JAO DO TESTE" datanasc="01/02/2000" sexo="M" />
+    </pacientes>
+    <medicos>
+      <medico crm="00992-GO" nome="SEM PEDIDO MEDICO" />
+      <medico crm="5250305-3-" nome="JOSE teste" />
+    </medicos>
+    <solicitacao codigo_lis="000023/20" codigo_paciente="000023/20" crm="0099-GO" data="23/07/2020">
+      <amostra material="738">
+        <exame codigo="HIPUR" id_lis="5" />
+      </amostra>
+    </solicitacao>
+    <solicitacao codigo_lis="000024/20" codigo_paciente="000024/20" crm="5250305-3-" data="23/07/2020">
+      <amostra material="738">
+        <exame codigo="HIPUR" id_lis="5" />
+      </amostra>
+    </solicitacao>
+  </entidade>
+</solicitacoes>
